@@ -2,7 +2,7 @@
   "short_name": "Yandeel",
   "name": "Yandeel",
   "icons": [{
-    "src": "icon.png",
+    "src": "./assets/images/logo.png",
     "type": "image/png",
     "sizes": "192x192"
   }],
