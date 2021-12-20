@@ -1,0 +1,12 @@
+{
+  "short_name": "Yandeel",
+  "name": "Yandeel",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "./signin.html/?utm_source=homescreen",
+  "background_color": "#EFF6EE",
+  "theme_color": "#2F6114"
+}
