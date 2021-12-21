@@ -11,6 +11,10 @@
     border-color: #2F6114 !important;
 }
 
+.error-border-color {
+    border-color: red !important;
+}
+
 /* input focus */
 input:focus {
     border-color: transparent !important;
