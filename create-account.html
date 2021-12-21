@@ -46,13 +46,17 @@
             <!-- Main content container -->
             <main class="container-fluid">
                 <div class="row" style="height: 100vh;">
-                    <!-- Center Column Form -->
+                    <!-- Center Column -->
                     <div class="col-md-9 hero-text-container mx-auto">
+                        <div class="position-absolute top">
+                            <span class="iconify" data-icon="ion:arrow-back-circle-outline" data-width="48" data-height="48" style="cursor: pointer;" onclick="history.go(-1);"></span>
+                        </div>
                         <div class="mx-md-5 my-md-5">
                             <div class="">
                                 <h4 class="primary-text-color fw-bold text-center">Create Account</h4>
                             </div>
                             <div class="">
+                                <!-- Create Account Form -->
                                 <form>
                                     <div class="row g-3">
                                         <div class="col-md-6">
@@ -147,10 +151,11 @@
                                         </div>
                                     </div>
                                 </form>
+                                <!-- End of Create Account Form -->
                             </div>
                         </div>
                     </div>
-                    <!-- End of Center Column Form -->
+                    <!-- End of Center Column -->
                 </div>
             </main>
             <!-- End of Main content container -->
