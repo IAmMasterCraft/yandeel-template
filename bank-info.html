@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Yandeel - Terms</title>
+        <title>Yandeel - Bank Information</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <link rel="icon" href="./assets/images/logo.png" sizes="any" />
@@ -51,50 +51,60 @@
                         <div class="position-absolute top py-4">
                             <span class="iconify" data-icon="ion:arrow-back-circle-outline" data-width="48" data-height="48" style="cursor: pointer;" onclick="history.go(-1);"></span>
                         </div>
-                        <div class="mx-md-5 my-md-5">
+                        <div class="position-absolute top-5 end-0 px-5 py-4">
+                            <button class="btn btn-primary extra-bg-color extra-border-color btn-rounded">Skip</button>
+                        </div>
+                        <div class="bank-info-container mx-auto my-md-5">
                             <div class="">
-                                <h6 class="text-center">Terms &amp; Policy</h6>
+                                <h4 class="primary-text-color fw-bold text-center">Bank Information</h4>
                             </div>
                             <div class="">
-                                <!-- Terms &amp; Policy Content -->
-                                <div class="row">
-                                    <div class="col-12">
-                                        <p class="py-4">
-                                            Lorem Ipsum dolor amet terms and policy
-                                            Lorem Ipsum dolor amet terms and policy
-                                            Lorem Ipsum dolor amet terms and policy
-                                            Lorem Ipsum dolor amet terms and policy
-                                            Lorem Ipsum dolor amet terms and policy
-                                            Lorem Ipsum dolor amet terms and policy
-                                            Lorem Ipsum dolor amet terms and policy
-                                            Lorem Ipsum dolor amet terms and policy
-                                            Lorem Ipsum dolor amet terms and policy
-                                            Lorem Ipsum dolor amet terms and policy
-                                            Lorem Ipsum dolor amet terms and policy
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- End of Terms &amp; Policy Content -->
-                                <!-- Confirm Agreement -->
-                                <div class="row fixed-bottom">
-                                    <div class="col-12">
-                                        <div class="form-group m-3 m-md-4">
-                                            <div class="my-3 my-md-4 text-center">
-                                                <input type="checkbox" class="form-check-input primary-border-color" id="termsAgree">
-                                                <label class="form-check-label" for="termsAgree">
-                                                    I agree to Yandeel’s 
-                                                    <a href="./terms.html" class="text-decoration-none primary-text-color fw-bold">Terms &amp; Policy</a>
+                                <!-- Create Account Form -->
+                                <form>
+                                    <div class="row g-3">
+                                        <div class="col-12">
+                                            <div class="form-group m-3 m-md-4">
+                                                <label for="accountNumber" class="pb-2">
+                                                    <span class="error-text-color pr-1">*</span>
+                                                    Account Number
                                                 </label>
+                                                <input type="number" class="form-control input-rounded primary-border-color py-2" id="accountNumber" placeholder="Enter account number">
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="m-3 m-md-4 text-center">
-                                            <button class="btn btn-primary primary-bg-color primary-border-color btn-rounded px-5 py-2">Agree</button>
+                                        <div class="col-12">
+                                            <div class="form-group m-3 m-md-4">
+                                                <label for="accountName" class="pb-2">
+                                                    <span class="error-text-color pr-1">*</span>
+                                                    Account Name
+                                                </label>
+                                                <input type="text" class="form-control input-rounded primary-border-color py-2" id="accountName" placeholder="Account Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-group m-3 m-md-4">
+                                                <label for="bankName" class="pb-2">
+                                                    <span class="error-text-color pr-1">*</span>
+                                                    Bank Name
+                                                </label>
+                                                <select class="form-select input-rounded primary-border-color py-2" id="bankName">
+                                                    <option selected>Choose Bank</option>
+                                                    <option value="first bank">First Bank</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-group m-3 m-md-4 text-center">
+                                                <button type="submit" class="btn btn-primary primary-bg-color primary-border-color btn-rounded px-5 py-2">Verify</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="fw-bold text-center text-dark">
+                                                <a href="./signin.html" class="text-decoration-none primary-text-color">Already have an account? Sign In</a>
+                                            </p>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- End of Confirm Agreement -->
+                                </form>
+                                <!-- End of Create Account Form -->
                             </div>
                         </div>
                     </div>

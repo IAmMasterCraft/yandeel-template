@@ -19,11 +19,21 @@
     border-color: #BE1919 !important;
 }
 
+.extra-bg-color {
+    background-color: #E88452 !important;
+}
+
+.extra-border-color {
+    border-color: #E88452 !important;
+}
+
+
 /* input focus */
-input:focus {
+input:focus, select:focus {
     border-color: transparent !important;
     box-shadow: 0 0 0 0.25rem #2f611454 !important;
 }
+
 /* input checked */
 input:checked {
     background-color: #2F6114 !important;

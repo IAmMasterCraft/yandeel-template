@@ -3,6 +3,11 @@
     width: 65%;
 }
 
+/* .bank-info-container */
+.bank-info-container {
+    width: 50%;
+}
+
 /* .action-container */
 .action-container {
     width: 90%;
@@ -10,7 +15,7 @@
 }
 
 /* input border radius */
-.input-rounded {
+.input-rounded, .btn-rounded {
     border-radius: 10px !important;
 }
 
