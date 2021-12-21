@@ -6,3 +6,13 @@
 .primary-bg-color {
     background-color: #2F6114;
 }
+
+
+
+/* trade gift card? */
+.hero-text {
+    background: -webkit-linear-gradient(#2F6114, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
