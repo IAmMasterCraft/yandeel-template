@@ -14,3 +14,7 @@
     border-radius: 10px !important;
 }
 
+/* .name-hint */
+.name-hint {
+    width: 50%;
+}

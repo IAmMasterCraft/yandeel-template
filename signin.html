@@ -79,10 +79,10 @@
                                     <label for="password" class="pb-2">Password</label>
                                     <div class="input-group">
                                         <input type="password" class="form-control primary-border-color input-rounded py-2" id="password" placeholder="Enter password">
-                                        <span class="iconify-inline text-dark fw-bold position-absolute bottom-5 end-0 mt-1 " data-icon="fluent:eye-hide-24-regular" data-width="28" data-height="28"></span>
-                                      </div>
+                                        <span class="iconify-inline text-dark fw-bold position-absolute bottom-5 end-0 mt-1 " data-icon="fluent:eye-hide-24-regular" data-width="28" data-height="28" style="cursor: pointer;" onclick="TogglePassword"></span>
+                                    </div>
                                 </div>
-                                <div class="form-check m-3 m-md-4 px-5 text-center error-hint-container">
+                                <div class="form-group m-3 m-md-4 px-5 text-center error-hint-container">
                                     <p class="text-danger error-hint">Incorrect Username or Password. Please try again</p>
                                 </div>
                                 <div class="form-check m-3 m-md-4 px-5 text-center">
@@ -96,7 +96,7 @@
                                     <a href="./forgot-password.html" class="text-decoration-none primary-text-color">Forgot Password?</a>
                                 </div>
                                 <p class="m-2 m-md-4 fw-bold text-center text-dark">
-                                    Don't have an account? <a href="./create-account.html" class="text-decoration-none primary-text-color">Sign Up</a>
+                                    <a href="./create-account.html" class="text-decoration-none primary-text-color">Don't have an account? Sign Up</a>
                                 </p>
                               </form>
                         </div>
@@ -112,5 +112,8 @@
         <!-- Iconify SVG Icon -->
         <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
         <!-- End of Iconify SVG Icon -->
+        <!-- Custom JS -->
+        <script src="./assets/js/main.js"></script>
+        <!-- End of Custom JS -->
     </body>
 </html>

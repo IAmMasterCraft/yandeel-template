@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Yandeel - Forgot Password</title>
+        <title>Yandeel - Create Account</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <link rel="icon" href="./assets/images/logo.png" sizes="any" />
@@ -52,6 +52,102 @@
                             <div class="">
                                 <h4 class="primary-text-color fw-bold text-center">Create Account</h4>
                             </div>
+                            <div class="">
+                                <form>
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="form-group m-3 m-md-4">
+                                                <label for="firstName" class="pb-2">
+                                                    <span class="error-text-color pr-1">*</span>
+                                                    First Name
+                                                </label>
+                                                <input type="text" class="form-control input-rounded primary-border-color py-2" id="firstName" placeholder="First Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group m-3 m-md-4">
+                                                <label for="lastName" class="pb-2">
+                                                    <span class="error-text-color pr-1">*</span>
+                                                    Last Name
+                                                </label>
+                                                <input type="text" class="form-control input-rounded primary-border-color py-2" id="lastName" placeholder="Last Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="text-center name-hint mx-auto">
+                                                The name you enter should match with the name on your bank account
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group mx-3 mx-md-4 mb-3 mb-md-4">
+                                                <label for="email" class="pb-2">
+                                                    <span class="error-text-color pr-1">*</span>
+                                                    Email Address
+                                                </label>
+                                                <input type="email" class="form-control input-rounded primary-border-color py-2" id="email" placeholder="Email Address">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group mx-3 mx-md-4 mb-3 mb-md-4">
+                                                <label for="phoneNumber" class="pb-2">
+                                                    <span class="error-text-color pr-1">*</span>
+                                                    Phone Number
+                                                </label>
+                                                <input type="number" class="form-control input-rounded primary-border-color py-2" id="phoneNumber" placeholder="Phone Number">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group m-3 m-md-4">
+                                                <label for="password" class="pb-2">
+                                                    <span class="error-text-color pr-1">*</span>
+                                                    Password
+                                                </label>
+                                                <div class="input-group">
+                                                    <input type="password" class="form-control primary-border-color input-rounded py-2" id="password" placeholder="Choose Password">
+                                                    <span class="iconify-inline text-dark fw-bold position-absolute bottom-5 end-0 mt-1 " data-icon="fluent:eye-hide-24-regular" data-width="28" data-height="28" style="cursor: pointer;" onclick="TogglePassword('password')"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group m-3 m-md-4">
+                                                <label for="confirmPassword" class="pb-2">
+                                                    <span class="error-text-color pr-1">*</span>
+                                                    Confirm Password
+                                                </label>
+                                                <div class="input-group">
+                                                    <input type="password" class="form-control primary-border-color input-rounded py-2" id="confirmPassword" placeholder="Confirm Password">
+                                                    <span class="iconify-inline text-dark fw-bold position-absolute bottom-5 end-0 mt-1 " data-icon="fluent:eye-hide-24-regular" data-width="28" data-height="28" style="cursor: pointer;" onclick="TogglePassword('confirmPassword')"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group m-3 m-md-4">
+                                                <label for="referralCode" class="pb-2">
+                                                    Referral Code
+                                                </label>
+                                                <input type="text" class="form-control input-rounded primary-border-color py-2" id="referralCode" placeholder="Enter referral code if available">
+                                                <div class="my-3 my-md-4">
+                                                    <input type="checkbox" class="form-check-input primary-border-color" id="termsAgree">
+                                                    <label class="form-check-label" for="termsAgree">
+                                                        I agree to Yandeel’s 
+                                                        <a href="./terms.html" class="text-decoration-none primary-text-color fw-bold">Terms &amp; Policy</a>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-group m-3 m-md-4 text-center">
+                                                <button type="submit" class="btn btn-primary primary-bg-color primary-border-color rounded px-5 py-2">Next</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="fw-bold text-center text-dark">
+                                                <a href="./signin.html" class="text-decoration-none primary-text-color">Already have an account? Sign In</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                     <!-- End of Center Column Form -->
@@ -65,5 +161,8 @@
         <!-- Iconify SVG Icon -->
         <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
         <!-- End of Iconify SVG Icon -->
+        <!-- Custom JS -->
+        <script src="./assets/js/main.js"></script>
+        <!-- End of Custom JS -->
     </body>
 </html>
