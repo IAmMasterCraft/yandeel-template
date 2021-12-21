@@ -11,6 +11,10 @@
     border-color: #2F6114 !important;
 }
 
+.error-text-color {
+    color: #BE1919 !important;
+}
+
 .error-border-color {
     border-color: #BE1919 !important;
 }
