@@ -19,6 +19,21 @@
     border-radius: 10px !important;
 }
 
+#verificationCode {
+    padding: 0 15px;
+    letter-spacing: 50px;
+    border: none;
+    background-image: linear-gradient(to left, #2F6114 70%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 50px 1px;
+    background-repeat: repeat-x;
+    background-position-x: 35px;
+    /* max-width: 200px; */
+    width: 50%;
+    margin: 0 20%;
+    /*min-width: 310px;*/
+}
+
 /* .name-hint */
 .name-hint {
     width: 50%;
