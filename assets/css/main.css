@@ -38,3 +38,32 @@
 .name-hint {
     width: 50%;
 }
+
+
+
+
+/* 
+* dashboard styles
+* .sidebar
+*/
+
+.header {
+    z-index: -5 !important;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 500;
+    padding: 70px 0 0 10px;
+    border-right: 1px solid #2F6114;
+}
+
+/* .left-sidebar */
+.left-sidebar {
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 70px);
+}
