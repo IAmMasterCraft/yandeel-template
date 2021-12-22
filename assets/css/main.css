@@ -57,8 +57,7 @@
     left: 0;
     bottom: 0;
     z-index: 500;
-    padding: 70px 0 0 10px;
-    border-right: 1px solid #2F6114;
+    padding: 10px 0 0 10px;
 }
 
 /* .left-sidebar */
@@ -66,4 +65,59 @@
     position: sticky;
     top: 0;
     height: calc(100vh - 70px);
+}
+
+/* .page-title */
+.page-title {
+    margin-left: -3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+* breakpoints
+*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .page-title {
+        margin: 0.1px 30px 0 -30px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .page-title {
+        margin-left: 0.1px 130px 0 -130px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .page-title {
+        margin-left: -4em;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .page-title {
+        margin-left: -7em;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .page-title {
+        margin-left: -9em;
+    }
 }
