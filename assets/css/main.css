@@ -65,6 +65,7 @@
     position: sticky;
     top: 0;
     height: calc(100vh - 70px);
+    width: 80%;
 }
 
 /* .page-title */
@@ -72,6 +73,22 @@
     margin-left: -3em;
 }
 
+/* .active for active nav item */
+.active {
+    background-color: rgba(239, 246, 238, 0.3);
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.active::before {
+    position: absolute;
+    content: 'a';
+    color: transparent;
+    right: 0;
+    border-right: 5px solid rgba(239, 246, 238, 0.8);
+    padding: 5px 0;
+    margin: -5px -28px 0 1px;
+}
 
 
 
