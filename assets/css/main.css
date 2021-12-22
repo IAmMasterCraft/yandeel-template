@@ -65,7 +65,7 @@
     position: sticky;
     top: 0;
     height: calc(100vh - 70px);
-    width: 80%;
+    /* width: 80%; */
 }
 
 /* .page-title */
@@ -87,7 +87,7 @@
     right: 0;
     border-right: 5px solid rgba(239, 246, 238, 0.8);
     padding: 5px 0;
-    margin: -5px -28px 0 1px;
+    margin: -5px 0;
 }
 
 
@@ -120,7 +120,11 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .page-title {
-        margin-left: -4em;
+        margin-left: 2em;
+    }
+
+    .active::before {
+        margin: -5px -15px;
     }
 
 }
@@ -128,13 +132,21 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .page-title {
-        margin-left: -7em;
+        margin-left: 2em;
+    }
+    
+    .active::before {
+        margin: -5px -53px;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .page-title {
-        margin-left: -9em;
+        margin-left: -2em;
+    }
+
+    .active::before {
+        margin: -5px -53px;
     }
 }
