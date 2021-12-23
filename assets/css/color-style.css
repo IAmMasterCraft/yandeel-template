@@ -64,6 +64,32 @@ input:checked {
     color: #FFFFFF !important;
 }
 
+/* wallet-balance-bg */
+.wallet-balance-bg {
+    background: rgba(79, 156, 36, 0.1) !important;
+    box-shadow: inset 0px 15.7084px 22.5557px -14.5001px rgba(255, 255, 255, 0.5), inset 0px 2.81946px 4.43059px -1.61112px #FFFFFF, inset 0px -33.028px 27.3891px -25.778px rgba(47, 97, 20, 0.3), inset 0px 39.4725px 40.2781px -19.3335px rgba(47, 97, 20, 0.3), inset 0px 1.61112px 7.25005px rgba(47, 97, 20, 0.3), inset 0px 0.402781px 16.1112px rgba(47, 97, 20, 0.3);
+    backdrop-filter: blur(40.2781px);
+    border-radius: 10.0875px;
+}
+
+/* .main-card */
+.main-card {
+    background: #EFF6EE !important;
+    box-shadow: -2.01751px -2.01751px 5.04376px rgba(81, 151, 42, 0.2), 2.01751px 2.01751px 5.04376px rgba(79, 156, 36, 0.2);
+    border-radius: 5.04376px;
+}
+
+/* trade-giftcards */
+.trade-giftcards {
+    background: rgba(57, 20, 99, 0.4);
+    border-radius: 10.0875px;
+}
+
+/* trade-bitcoin */
+.trade-bitcoin {
+    background: rgba(18, 88, 111, 0.5);
+    border-radius: 10.0875px;
+}
 
 
 
