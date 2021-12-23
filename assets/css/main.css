@@ -147,6 +147,6 @@
     }
 
     .active::before {
-        margin: -5px -53px;
+        margin: -5px -33px;
     }
 }
