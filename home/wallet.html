@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Yandeel - Empty Transactions</title>
+        <title>Yandeel - Wallet</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <link rel="icon" href="../assets/images/logo.png" sizes="any" />
@@ -41,7 +41,7 @@
                     </div>
 
                     <div>
-                        <h4 class="page-title header-icon-color">Transactions</h4>
+                        <h4 class="page-title header-icon-color">Wallet</h4>
                     </div>
 
                     <div class="navbar-brand">
@@ -92,13 +92,13 @@
                                     </a>
                                 </li>
                                 <li class="nav-item my-md-3">
-                                    <a class="nav-link text-white active" href="#">
+                                    <a class="nav-link text-white" href="#">
                                         <span class="iconify" data-icon="fluent:arrow-swap-24-filled"></span>
                                         <span class="mx-4">Transactions</span>
                                     </a>
                                 </li>
                                 <li class="nav-item my-md-3">
-                                    <a class="nav-link text-white" href="#">
+                                    <a class="nav-link text-white active" href="#">
                                         <span class="iconify" data-icon="fluent:wallet-24-filled"></span>
                                         <span class="mx-4">Wallet</span>
                                     </a>
@@ -130,43 +130,24 @@
                     <main role="main" class="col-12 ml-sm-auto px-4" style="z-index: -10;">
                         <div class="main-content">
                             <div class="row my-4">
-                                <div class="col-md-6 my-2">
-                                    <div>
-                                        <h5 class="primary-text-color">Transaction Logs</h5>
+                                <div class="col-12 col-md-6 mb-2">
+                                    <button class="btn btn-primary extra-bg-color extra-border-color btn-rounded">Withdraw from Wallet</button>
+                                    <div class="form-group my-4">
+                                        <label for="searchDate" class="pb-2 visually-hidden">Search</label>
+                                        <input type="text" class="form-control input-rounded primary-border-color py-2" id="searchDate" placeholder="Search Date">
                                     </div>
                                 </div>
-                                <div class="col-md-6 my-2">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="form-group mb-4">
-                                                <label for="searchDate" class="pb-2 visually-hidden">Search</label>
-                                                <input type="text" class="form-control input-rounded primary-border-color py-2" id="searchDate" placeholder="Search Date">
-                                            </div>
-                                        </div>
-                                        <div class="col-5">
-                                            <div class="mb-4">
-                                                <button class="btn btn-primary px-5 py-2 all-btn btn-rounded">All</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="mb-4">
-                                                <button class="btn btn-primary px-5 py-2 pending-btn btn-rounded text-dark">Pending</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="mb-4">
-                                                <button class="btn btn-primary px-4 py-2 successful-btn btn-rounded text-dark">Successful</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-5">
-                                            <div class="mb-4">
-                                                <button class="btn btn-primary px-5 py-2 error-btn active-error btn-rounded text-dark">Error</button>
-                                            </div>
-                                        </div>
+                                <div class="col-12 col-md-6 my-2">
+                                    <div class="wallet-balance-bg p-4">
+                                        <p class="">Wallet Balance</p>
+                                        <p class="primary-text-color m-0">
+                                            <span class="iconify" data-icon="tabler:currency-naira" data-width="20" data-height="20">0000</span>
+                                            <span class="fw-bold">0.00</span>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row my-2">
+                            <div class="row my-4">
                                 <div class="col-12">
                                     <div>
                                         <table class="table">
@@ -174,17 +155,22 @@
                                                 <tr class="secondary-bg-color text-white table-head">
                                                     <th scope="col" class="fw-normal">Transaction ID</th>
                                                     <th scope="col" class="fw-normal">Type</th>
-                                                    <th scope="col" class="fw-normal">Status</th>
+                                                    <th scope="col" class="fw-normal">Amount</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
+                                                <tr>
+                                                    <td>1234567890</td>
+                                                    <td>Bitcoin trade</td>
+                                                    <td>N200,000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7583947568</td>
+                                                    <td>Gift card purchase</td>
+                                                    <td>N13,000</td>
+                                                </tr>
                                             </tbody>
                                         </table>
-                                    </div>
-                                    <div class="account-img mx-auto text-center">
-                                        <img src="../assets/images/empty_wallet.png" alt="" class="img-fluid">
-                                        <p class="fw-bold mt-4">No transactions yet</p>
-                                        <p>Your recent transactions will apear here.</p>
                                     </div>
                                 </div>
                             </div>
