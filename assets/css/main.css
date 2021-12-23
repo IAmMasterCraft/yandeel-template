@@ -96,8 +96,16 @@
 }
 
 /* .wallet-balance-bg && .main-card, etc... */
-.wallet-balance-bg, .main-card, .notification-card, .trade-giftcard, .trade-bitcoin {
+.wallet-balance-bg, 
+.main-card, 
+.notification-card, 
+.trade-giftcard, 
+.trade-bitcoin {
     width: 100%;
+}
+
+.account-img {
+    width: fit-content;
 }
 
 
