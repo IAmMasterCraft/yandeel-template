@@ -79,6 +79,12 @@ input:checked {
     border-radius: 5.04376px;
 }
 
+/* .notification-card */
+.notification-card {
+    background: #EFF6EE !important;
+    border-radius: 10px;
+}
+
 /* trade-giftcards */
 .trade-giftcards {
     background: rgba(57, 20, 99, 0.4);

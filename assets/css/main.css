@@ -95,8 +95,8 @@
     padding-top: 100px;
 }
 
-/* .wallet-balance-bg && .main-card*/
-.wallet-balance-bg, .main-card, .trade-giftcard, .trade-bitcoin {
+/* .wallet-balance-bg && .main-card, etc... */
+.wallet-balance-bg, .main-card, .notification-card, .trade-giftcard, .trade-bitcoin {
     width: 100%;
 }
 
