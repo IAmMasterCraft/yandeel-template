@@ -98,10 +98,13 @@
 /* .wallet-balance-bg && .main-card, etc... */
 .wallet-balance-bg, 
 .main-card, 
-.notification-card, 
+.notification-card {
+    width: 100%;
+}
+
 .trade-giftcard, 
 .trade-bitcoin {
-    width: 100%;
+    width: fit-content;
 }
 
 .account-img {
