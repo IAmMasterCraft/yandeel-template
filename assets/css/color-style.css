@@ -102,6 +102,13 @@ input:checked {
     border-color: black #2F6114 #EFF6EE #E88452 !important;
 }
 
+/* .summary-card */
+.summary-card {
+    background: rgba(239, 246, 238, 0.8) !important;
+    box-shadow: 1.98291px 1.98291px 5.94872px rgba(0, 0, 0, 0.25);
+    border-radius: 9.91453px;
+}
+
 
 
 
