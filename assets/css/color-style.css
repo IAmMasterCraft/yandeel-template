@@ -97,6 +97,13 @@ input:checked {
     border-radius: 10.0875px;
 }
 
+/* .circular-progress */
+.progress-circle-1 {
+    border-color: black #2F6114 #EFF6EE #E88452 !important;
+}
+
+
+
 
 
 
