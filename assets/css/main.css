@@ -98,7 +98,8 @@
 /* .wallet-balance-bg && .main-card, etc... */
 .wallet-balance-bg, 
 .main-card, 
-.notification-card {
+.notification-card,
+.account-info {
     width: 100%;
 }
 

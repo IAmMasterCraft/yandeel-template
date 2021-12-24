@@ -93,6 +93,12 @@ input:checked {
     border-radius: 10px;
 }
 
+/* .account-info */
+.account-info {
+    background: rgba(232, 132, 82, 0.5) !important;
+    border-radius: 10px;
+}
+
 /* trade-giftcards */
 .trade-giftcard {
     background: rgba(57, 20, 99, 0.4);
