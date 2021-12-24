@@ -23,6 +23,10 @@
     color: #BE1919 !important;
 }
 
+.error-bg-color {
+    background-color: #BE1919 !important;
+}
+
 .error-border-color {
     border-color: #BE1919 !important;
 }
