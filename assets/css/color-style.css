@@ -83,13 +83,13 @@ input:checked {
 /* wallet-balance-bg */
 .wallet-balance-bg {
     background: rgba(79, 156, 36, 0.1) !important;
-    box-shadow: inset 0px 31.1443px 44.72px -28.7486px rgba(255, 255, 255, 0.5),
-        inset 0px 5.59px 8.78429px -3.19429px #ffffff,
-        inset 0px -65.4829px 54.3029px -51.1086px rgba(47, 97, 20, 0.3),
-        inset 0px 78.26px 79.8571px -38.3314px rgba(47, 97, 20, 0.3),
-        inset 0px 3.19429px 14.3743px rgba(47, 97, 20, 0.3),
-        inset 0px 0.798571px 31.9429px rgba(47, 97, 20, 0.3);
-    backdrop-filter: blur(79.8571px);
+    box-shadow: inset 0px 15.7084px 22.5557px -14.5001px rgba(255, 255, 255, 0.5), 
+        inset 0px 2.81946px 4.43059px -1.61112px #FFFFFF, 
+        inset 0px -33.028px 27.3891px -25.778px rgba(47, 97, 20, 0.3), 
+        inset 0px 39.4725px 40.2781px -19.3335px rgba(47, 97, 20, 0.3), 
+        inset 0px 1.61112px 7.25005px rgba(47, 97, 20, 0.3), 
+        inset 0px 0.402781px 16.1112px rgba(47, 97, 20, 0.3);
+    backdrop-filter: blur(40.2781px);
     border-radius: 10.0875px;
 }
 
