@@ -80,6 +80,11 @@
     width: fit-content;
 }
 
+/* .active-2 for landing page */
+.active-2 {
+    border-bottom: 2px solid #2F6114;
+}
+
 .active::before {
     position: absolute;
     content: 'a';

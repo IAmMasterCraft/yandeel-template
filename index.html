@@ -34,8 +34,8 @@
         <div>
             <!-- Header/Nav -->
             <header>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <div class="container">
                         <a class="navbar-brand" href="#">
                             <img src="./assets/images/logo-green.png" alt="Yandeel Logo">
                         </a>
@@ -43,103 +43,36 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link active-2" aria-current="page" href="#">Home</a>
                                 </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="#">Our Services</a>
                                 </li>
-                                <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="#">Contact Us</a>
                                 </li>
-                                <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="#">FAQs</a>
                                 </li>
                             </ul>
-                            <form class="d-flex">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form>
+                            <button class="btn mx-2 get-started-btn">Get Started</button>
                         </div>
-                    </div>
-                </nav>
-                <nav class="navbar">
-                    <div class="container">
-                        <a class="navbar-brand" href="#">
-                            <img src="./assets/images/logo-green.png" alt="Yandeel Logo">
-                        </a>
                     </div>
                 </nav>
             </header>
             <!-- End of Header/Nav -->
             <!-- Main content container -->
-            <main class="container-fluid">
-                <div class="row" style="height: 100vh;">
-                    <!-- Left Hero -->
-                    <div class="col-md-6">
-                        <div class="mx-md-5 my-md-5">
-                            <div>
-                                <img src="./assets/images/rafiki.png" alt="Hero Image" class="img-fluid">
-                            </div>
-                            <div class="hero-text-container mx-auto my-3">
-                                <h3 class="hero-text fw-bold">
-                                    Want to trade
-                                    Giftcards?
-                                </h3>
-                                <p class="my-4">
-                                    We have a range of giftcards from
-                                    Amazon, iTunes, Google Play Store
-                                    and e.t.c
-                                </p>
-                            </div>
+            <main class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <img src="./assets/icons/welcome-line.png" />
+                            <p>Welcome to Yandeel</p>
                         </div>
                     </div>
-                    <!-- End of Left Hero -->
-                    <!-- Right Form -->
-                    <div class="col-md-6">
-                        <div class="action-container px-2 px-md-5 py-5 mx-auto">
-                            <h4 class="primary-text-color fw-bold text-center">Sign In</h4>
-                            <form class="" action="./home/dashboard.html">
-                                <div class="form-group m-3 m-md-4 my-xl-5">
-                                    <label for="email" class="pb-2">Email address</label>
-                                    <input type="email" class="form-control input-rounded primary-border-color py-2" id="email" placeholder="Enter email">
-                                </div>
-                                <div class="form-group m-3 m-md-4 my-xl-5">
-                                    <label for="password" class="pb-2">Password</label>
-                                    <div class="input-group">
-                                        <input type="password" class="form-control primary-border-color input-rounded py-2" id="password" placeholder="Enter password">
-                                        <span class="iconify-inline text-dark fw-bold position-absolute bottom-5 end-0 mt-1 " data-icon="fluent:eye-hide-24-regular" data-width="28" data-height="28" style="cursor: pointer;" onclick="TogglePassword"></span>
-                                    </div>
-                                </div>
-                                <div class="form-group m-3 m-md-4 px-5 text-center error-hint-container">
-                                    <p class="text-danger error-hint">Incorrect Username or Password. Please try again</p>
-                                </div>
-                                <div class="form-check m-3 m-md-4 px-5 text-center">
-                                    <input type="checkbox" class="form-check-input primary-border-color" id="signedIn">
-                                    <label class="form-check-label" for="signedIn">Keep me signed in on this computer</label>
-                                </div>
-                                <div class="form-group m-1 m-md-4 text-center">
-                                    <button type="submit" class="btn btn-primary primary-bg-color primary-border-color btn-rounded px-5 py-2">Sign in</button>
-                                </div>
-                                <div class="m-3 m-md-4 text-center">
-                                    <a href="./forgot-password.html" class="text-decoration-none primary-text-color">Forgot Password?</a>
-                                </div>
-                                <p class="m-2 m-md-4 fw-bold text-center text-dark">
-                                    <a href="./create-account.html" class="text-decoration-none primary-text-color">Don't have an account? Sign Up</a>
-                                </p>
-                              </form>
-                        </div>
-                    </div>
-                    <!-- End of Right Form -->
+                    <div class="col-md-8"></div>
                 </div>
             </main>
             <!-- End of Main content container -->
