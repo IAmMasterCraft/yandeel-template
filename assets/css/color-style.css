@@ -35,6 +35,14 @@
     background-color: #E88452 !important;
 }
 
+.extra2-bg-color {
+    background-color: #455A64 !important;
+}
+
+.extra3-bg-color {
+    background-color: #12586F !important;
+}
+
 .extra-border-color {
     border-color: #E88452 !important;
 }
@@ -141,6 +149,24 @@ input:checked {
     background: rgba(239, 246, 238, 0.8) !important;
     box-shadow: 1.98291px 1.98291px 5.94872px rgba(0, 0, 0, 0.25);
     border-radius: 9.91453px;
+}
+
+/* .services-header */
+.services-header {
+    content: "";
+    width: 100vw;
+    height: 25rem;
+    z-index: -2;
+    /* margin-top: 5rem; */
+    position: absolute;
+    background-color: rgba(239, 246, 238, 1) !important;
+}
+
+/* .about-box */
+.about-box {
+    border: 1px solid #2F6114 !important;
+    box-shadow: 4px 4px 9px rgba(47, 97, 20, 0.28) !important;
+    border-radius: 10px !important;
 }
 
 /* .all-btn */
