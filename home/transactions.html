@@ -130,39 +130,25 @@
                     <main role="main" class="col-12 ml-sm-auto px-4">
                         <div class="main-content">
                             <div class="row my-4">
-                                <div class="col-md-6 my-2">
+                                <div class="col-md-3 my-2">
                                     <div>
                                         <h5 class="primary-text-color">Transaction Logs</h5>
                                     </div>
                                 </div>
-                                <div class="col-md-6 my-2">
-                                    <div class="row">
-                                        <div class="col-12">
+                                <div class="col-md-9 my-2">
+                                    <div class="d-flex flex-row-reverse">
+                                        <div class="col-12 col-md-6">
                                             <div class="form-group mb-4">
                                                 <label for="searchDate" class="pb-2 visually-hidden">Search</label>
                                                 <input type="text" class="form-control input-rounded primary-border-color py-2" id="searchDate" placeholder="Search Date">
                                             </div>
                                         </div>
-                                        <div class="col-5">
-                                            <div class="mb-4">
-                                                <button class="btn btn-primary px-5 py-2 all-btn active-all btn-rounded">All</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="mb-4">
-                                                <button class="btn btn-primary px-5 py-2 pending-btn btn-rounded text-dark">Pending</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="mb-4">
-                                                <button class="btn btn-primary px-4 py-2 successful-btn btn-rounded text-dark">Successful</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-5">
-                                            <div class="mb-4">
-                                                <button class="btn btn-primary px-5 py-2 error-btn btn-rounded text-dark">Error</button>
-                                            </div>
-                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-wrap justify-content-end">
+                                        <button class="btn px-5 mx-md-1 mx-2 my-2 py-2 all-btn active-all text-white make-btn-pill">All</button>
+                                        <button class="btn px-5 mx-md-1 mx-2 my-2 py-2 pending-btn text-dark make-btn-pill">Pending</button>
+                                        <button class="btn px-4 mx-md-1 mx-2 my-2 py-2 successful-btn text-dark make-btn-pill">Successful</button>
+                                        <button class="btn px-5 mx-md-1 mx-2 my-2 py-2 error-btn text-dark make-btn-pill">Error</button>
                                     </div>
                                 </div>
                             </div>
