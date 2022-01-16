@@ -179,6 +179,21 @@ input:checked {
     border-radius: 10px !important;
 }
 
+/* .how-card-1 */
+.how-card-1 {
+    background-color: #E88452;
+}
+
+/* .how-card-2 */
+.how-card-2 {
+    background-color: rgba(57, 20, 99, 0.7);
+}
+
+/* .how-card-3 */
+.how-card-3 {
+    background-color: #455A64;
+}
+
 /* .active-all */
 .active-all {
     border: 0.500865px solid rgba(18, 88, 111, 0.5);
