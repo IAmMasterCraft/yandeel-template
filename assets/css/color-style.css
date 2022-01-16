@@ -179,6 +179,16 @@ input:checked {
     border-radius: 10px !important;
 }
 
+/* .footer-dl-btn */
+.footer-dl-btn {
+    background-color: rgba(239, 246, 238, 0.8) !important;
+}
+
+/* .make-btn-pill */
+.make-btn-pill {
+    border-radius: 20px !important;
+}
+
 /* .how-card-1 */
 .how-card-1 {
     background-color: #E88452;
