@@ -65,6 +65,13 @@ input:checked {
     -webkit-text-fill-color: transparent;
 }
 
+.hero-text-landing {
+    background: -webkit-linear-gradient(left, rgba(57, 20, 99, 1), rgba(47, 97, 20, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* action container */
 .action-container {
     background: linear-gradient(
@@ -158,6 +165,18 @@ input:checked {
 .error-btn {
     background-color: rgba(190, 25, 25, 0.5) !important;
     border-radius: 5.00865px !important;
+}
+
+/* .get-android-btn */
+.get-android-btn {
+    background-color: rgba(190, 25, 25, 0.71) !important;
+    border-radius: 10px !important;
+}
+
+/* .get-iphone-btn */
+.get-iphone-btn {
+    background-color: #000000 !important;
+    border-radius: 10px !important;
 }
 
 /* .active-all */
