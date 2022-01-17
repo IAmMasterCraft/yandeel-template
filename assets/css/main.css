@@ -132,7 +132,8 @@
 
 /* .active for active nav item */
 .active {
-    background-color: rgba(239, 246, 238, 0.3);
+    background-color: rgba(47, 97, 20, 0.4) !important;
+    color: #000000 !important;
     border-radius: 15px;
     width: fit-content;
 }
@@ -147,7 +148,7 @@
     content: 'a';
     color: transparent;
     right: 0;
-    border-right: 5px solid rgba(239, 246, 238, 0.8);
+    border-right: 5px solid rgba(47, 97, 20, 1);
     padding: 5px 0;
     margin: -5px 0;
 }

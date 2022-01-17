@@ -1,6 +1,6 @@
 /* color style guide */
 .primary-text-color {
-    color: #2F6114;
+    color: #2F6114 !important;
 }
 
 .primary-bg-color {
@@ -291,6 +291,15 @@ input:checked {
 
 
 
+
+
+/* 
+* .new-sidebar-bg
+*/
+.new-sidebar-bg {
+    background-color: #EFF6EE !important;
+    box-shadow: 3px 2px 4px rgba(47, 97, 20, 0.3) !important;
+}
 
 
 
