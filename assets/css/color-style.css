@@ -259,14 +259,17 @@ input:checked {
 }
 
 
-/* .get-started-btn */
-/* .get-started-btn {
-  background: 
-    linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
-    linear-gradient(to right, darkblue, darkorchid) border-box;
-  border-radius: 50em;
-  border: 4px solid transparent;
-} */
+
+.bank-settings-btn {
+    background-color: rgba(57, 20, 99, 0.4) !important;
+    border-radius: 10px !important;
+}
+
+.bank-settings-btn-active {
+    background-color: rgba(57, 20, 99, 1) !important;
+    box-shadow: 0px 5px 9px rgba(57, 20, 99, 0.4);
+    border-radius: 10px !important;
+}
 
 .get-started-btn {
     position: relative;
