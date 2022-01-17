@@ -19,6 +19,10 @@
     border-color: #391463 !important;
 }
 
+.header-bg-color {
+    background-color: #EFF6EE !important;
+}
+
 .error-text-color {
     color: #BE1919 !important;
 }
@@ -87,7 +91,7 @@ input:checked {
         rgba(79, 156, 36, 0.1) 0.92%, 
         rgba(79, 156, 36, 0.35) 97.79%
     );
-    box-shadow: 7px 7px 23px rgba(47, 97, 20, 0.2);
+    /* box-shadow: 7px 7px 23px rgba(47, 97, 20, 0.2); */
 }
 
 /* .header-icon-color */
